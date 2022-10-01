@@ -1,0 +1,25 @@
+
+.StandardCleaning{
+}
+
+.standard_contents{}
+
+.num_one_content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 2.9cm;
+}
+
+.num_one_content img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.num_one_content span ul li{
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    padding: 9px;
+}

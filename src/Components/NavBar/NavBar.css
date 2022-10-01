@@ -1,0 +1,92 @@
+
+
+.nav_bar_wrapper{
+    /* width: 100vw; */
+    /* border: 1px solid #000; */
+}
+
+.nav_bar{
+    border: 1px solid #eee;
+    width: 100vw;
+    height: 120px;
+    background-color: #fffffd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 1.6px 3px #efefef;
+}
+
+.blue{
+    background-color: #1a73e8;
+    font-weight: bold;
+    text-decoration: none !important;
+    color: #fff;
+    padding: 10px 16px;
+}
+
+.real_logo{
+    color: rgb(210, 178, 17) !important;
+    margin-left: 2.3cm;
+}
+
+.lll{
+    color: orangered;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.navigations ul{
+    margin-right: 2.3cm;
+}
+
+.navigations ul li{
+    display: inline;
+    padding: 24px;
+}
+
+.core-nav{
+    color: #222;
+    text-decoration: none !important;
+    text-transform: capitalize !important;
+    font-weight: 500;
+    letter-spacing: -0.2px;
+}
+
+.core-nav:hover{
+    color: orangered;
+    padding-bottom: 5px;
+    border-bottom: 2px solid orangered;
+}
+
+.iconSize{
+    font-size: 20px;
+    font-weight: bolder !important;
+    padding-top: -20px;
+    margin-top: -10px;
+}
+
+.mobileUl{
+    margin-right: 1cm;
+    display: none;
+}
+
+.mobileNav{
+    font-size: 37px;
+    color: #1a73e8;
+}
+
+@media (min-width: 300px) and (max-width: 910px) {
+
+
+    .logo{
+        margin-left: -3.5rem;
+    }
+
+    ul.ul{
+        display: none;
+    }
+
+    .mobileUl{
+        display: block;
+    }
+}

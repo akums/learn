@@ -1,0 +1,51 @@
+
+.Subscribe{
+    display: flex;
+    justify-content: center;
+    padding: 41px 21px;
+    margin-top: 1.9cm;
+}
+
+.sub_news{
+    font-family: Ubuntu, sans-serif;
+    font-size: 38px;
+}
+
+.sub_info{
+    font-family: Montserrat, sans-serif;
+    font-size: 17.07px;
+    line-height: 1.5em;
+}
+
+.home_input{
+    outline: none;
+    border: none;
+    border: 1px solid orangered;
+    min-width: 240px;
+    height: 50px;
+    padding-left: 5px;
+}
+
+.sub_btn{
+    outline: none;
+    border: none;
+    /* padding: 21px 45px; */
+    /* border-radius: 4px; */
+    background: #fff;
+    border: 1px solid #ddd;
+    transition: all .1s linear;
+    font-family: Montserrat, sans-serif;
+    font-weight: bolder;
+    height: 58px;
+    min-width: 91px !important;
+    padding:  1px 20px;
+}
+
+.sub_btn:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 7px #ddd;
+}
+
+.sub_btn:active{
+    transform: scale(0.9);
+}

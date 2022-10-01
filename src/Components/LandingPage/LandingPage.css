@@ -1,0 +1,137 @@
+
+
+/* your experience is somebody's direction */
+
+/* .LandingPage{
+    
+    width: 100vw;
+    height: 498px;
+}
+
+.text-contents{
+    width: inherit;
+    height: inherit;
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top: 1cm;
+    text-align: center;
+}
+
+@media (min-width: 200px) and (max-width:535px) {
+    .text-contents{
+        display: flex;
+        flex-direction: column !important;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+.asdf{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 68.6px;
+    color: rgb(30, 29, 29);
+    font-weight: 500;
+}
+
+.qwert{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #333;
+    margin-top: -20px;
+}
+
+.blend{
+    color: orangered;
+} */
+
+/* .zxcv{
+    background: #1a73e8;
+    color: #ffffff;
+    padding: 15px 45px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    transition: all .2s linear;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+
+.zxcv:hover{
+    background-color: #1a73e895;
+}
+
+.zxcv:active{
+    transform: scaleY(0.9);
+    background: #1a73e8;
+} */
+
+
+
+.LandingPage{
+    
+    /* border: 1px solid #000; */
+    overflow: hidden;
+    margin-top: 1.05cm;
+}
+
+.text-contents{
+    width: 100vw;
+    height: auto;
+    text-align: center;
+}
+
+.asdf{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 68.6px;
+    color: rgb(30, 29, 29);
+    font-weight: 500;
+    padding: 5px;
+}
+
+.blend{
+    color: orangered;
+}
+
+@media (min-width:290px) and (max-width: 480px){
+    .asdf{
+        font-size: 45px !important;
+    }
+}
+
+.qwert{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #333;
+    margin-top: -27px;
+    padding: 5px;
+}
+
+.zxcv{
+    background: #1a73e8;
+    color: #ffffff;
+    padding: 15px 45px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    transition: all .2s linear;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.zxcv:hover{
+    background-color: #1a73e895;
+}
+
+.zxcv:active{
+    transform: scaleY(0.9);
+    background: #1a73e8;
+}

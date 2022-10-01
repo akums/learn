@@ -1,0 +1,25 @@
+
+.WindowsCleaning{
+    margin-bottom: 2cm !important;
+}
+
+.windows_role{
+    /* width: 340px; */
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+
+.windows_role ol{
+    display: flex;
+    flex-direction: column;
+}
+
+.windows_role ol li{
+    padding: 12px;
+    font-family: Montserrat, sans-serif;
+    word-break: keep-all;
+    font-size: 19px;
+}

@@ -1,0 +1,28 @@
+
+.AirBnb{}
+
+.pre_air{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.air_manual{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap  !important;
+    margin-top: 2.2cm;
+    margin-bottom: 2.2cm !important;
+}
+
+.divvv{
+    width: 40%;
+    line-height: 1.7em;
+}
+
+.divvv p{
+    font-size: 21px;
+    font-family: Montserrat, sans-serif;
+    word-spacing: 2px;
+}

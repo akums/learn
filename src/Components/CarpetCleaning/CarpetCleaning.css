@@ -1,0 +1,37 @@
+
+/* .cap_style{
+    
+} */
+
+.carpet_contents{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.carpet_contents > *{
+    margin: 2em;
+}
+
+.carpet_contents img{
+    width: 420px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.carpet_contents p{
+    font-family: Montserrat, sans-serif;
+    font-size: 21px;
+    border: 1px ;
+    width: 400px;
+    line-height: 1.5em;
+    word-spacing: 1.3px;
+}
+
+@media (max-width: 700px) {
+    .carpet_contents p{
+        width: 340px;
+    }
+}

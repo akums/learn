@@ -1,0 +1,60 @@
+
+.MobileResNav{
+    position: absolute;
+    z-index: 9999999999999;
+    top: 7.4rem;
+    width: 100vw !important;
+    height: inherit !important;
+    border: 1px solid rgb(114, 94, 94);
+    background: #fefefe;
+}
+@media (min-width: 911px) {
+    .MobileResNav{ display: none; }
+}
+
+.MobileResNav > *{
+    list-style: none;
+}
+
+.MobileResNav ol{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end !important;
+    align-content: flex-start;
+    align-items: flex-start; */
+    margin-left: -0.4cm;
+}
+
+.MobileResNav ol li{
+    padding-top: 7.5px;
+}
+
+.mmm{
+    color: #555;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+
+.mmm:hover{
+    color: #000;
+}
+
+.blyu{
+    color: #1a73e8;
+}
+
+.btnfila{
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.bt{
+    padding: 13px 28px !important;
+    outline: none;
+    border: none;
+    margin: 10px;
+}

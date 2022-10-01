@@ -1,0 +1,24 @@
+
+.appt_link{
+    color: #222;
+    text-decoration: none;
+    text-align: center;
+    font-size: 19px;
+    background-color: orangered;
+    color: #fff;
+    padding: 21px 32px !important;
+    /* border-radius: 3px; */
+    font-family: Montserrat, sans-serif;
+    transition: box-shadow .123456s linear;
+}
+
+.appt_link:hover{
+    box-shadow: 2px 3px 7px gray;
+}
+
+.ScheduleAppt{
+    text-align: center !important;
+    display: flex;
+    justify-content: center;
+    margin-top: 2.3cm;
+}

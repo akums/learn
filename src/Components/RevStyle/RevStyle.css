@@ -1,0 +1,58 @@
+
+.RevStyle{
+    width: 420px;
+    height: 210px;
+    background-color: #fafbfc;
+    border-radius: 12px;
+    box-shadow: 1px 2px 42px #ddd;
+    padding: 17px;
+    margin-top: 3cm;
+    position: relative;
+    left: 34% !important;
+    overflow-x: hidden;
+
+}
+
+@media (max-width: 720px) {
+    .RevStyle{
+        width: 300px !important;
+    }
+}
+
+.img_and_content{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.profile_pix{
+    width: 50px !important;
+    height: 50px;
+    border-radius: 50% !important;
+    object-fit: cover;
+}
+
+.feed_back{
+    font-family: Montserrat, sans-serif;
+    line-height: 1.4em;
+    font-size: 18px;
+    font-weight: 500;
+    word-break: break-all;
+}
+
+.pro_wrapper{
+    margin-left: 7pt;
+}
+
+.profile_name{
+    font-family: Ubuntu, sans-serif;
+    font-size: 13px;
+}
+
+.profile_title{
+    font-size: 12px;
+    font-family: Montserrat, sans-serif;
+    color: #555;
+    margin-top: -12px;
+}

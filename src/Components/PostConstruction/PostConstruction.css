@@ -1,0 +1,50 @@
+
+
+.post_landi_image{
+    width: 100%;
+    height: 390px;
+    background-image: url(../../media/pictures/two.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.flex_txt{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    align-content: center;
+    flex-wrap: wrap !important;
+    margin: 3cm auto;
+    word-spacing: 2px;
+}
+
+.flex_txt p{
+    font-family: Montserrat, sans-serif;
+    line-height: 1.5em;
+    font-size: 19px;
+}
+
+.buk{
+    font-family: Montserrat, sans-serif;
+}
+
+.h_constrct{
+    text-align: center;
+    font-family: Ubuntu, sans-serif;
+    font-size: 39px;
+    margin-top: 1.45678cm;
+ }
+
+ .book_us_from_post_construction{
+    color: rgba(39, 216, 39, 0.943);
+    text-decoration: none;
+    margin-top: 2cm !important;
+    text-align: center !important;
+    font-weight: bolder;
+    font-size: 20px;
+ }
+
+ .book_us_from_post_construction:hover{
+    text-decoration: underline !important;
+ }

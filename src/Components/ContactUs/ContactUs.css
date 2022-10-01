@@ -1,0 +1,65 @@
+
+
+p.bgtr{
+    font-family: Ubuntu, sans-serif;
+    text-align: center;
+    font-size: 38px;
+}
+
+.form_wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+form.tell_us_the_issue{
+    width: 300px;
+    min-width: 340px;
+    min-height: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 8px 40px #999;
+    box-shadow: 9px !important;
+}
+
+.name_container{
+    margin: 10px;
+}
+
+.users_name{
+    outline: none;
+    border: 2px solid #ccc;
+    min-width: 200px;
+    border-radius: 1px;
+    padding: 10px 8px;
+    transition: all .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.users_name:focus{
+    border: 2px solid #222;
+}
+
+.popoz{
+    font-family: Ubuntu, sans-serif;
+    letter-spacing: -1px;
+    font-size: 14px;
+}
+
+.text_area{
+    width: 215px;
+    height: 80px;
+    padding-left: 7px;
+}
+
+.submit_form{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: orangered;
+    padding: 12px 45px;
+    /* border-radius: 2px; */
+    display: flex;
+    justify-content: flex-end !important;
+}

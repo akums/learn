@@ -1,0 +1,146 @@
+
+
+.about_us{}
+
+.about_landing_container{
+    width: 100%;
+    height: 390px;
+    background-image: url(../../media//pictures/two.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-origin: content-box;
+    border: 1px solid #fff;
+    /* border-bottom-right-radius: 200px;
+    border-top-left-radius: 200px; */
+}
+
+.about_landing_img{
+    width: 100% !important;
+    height: 390px;
+    object-fit: cover;
+}
+
+.abt_h1{
+    font-size: 37px;
+}
+
+.about_pikin{
+    margin-top: 2cm;
+}
+
+.text_and_imgg{
+    display: flex;
+    justify-content: space-around !important;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5cm;
+}
+
+.for_family_pix{
+    width: 12cm;
+    height: 220pt;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.text_and_imgg{
+    /* margin: 3cm; */
+}
+
+.write_up{
+    /* border: 1px solid #000; */
+    width: 460px;
+    word-break: keep-all;
+    font-family: Oswald, sans-serif;
+    font-size: 19px;
+    line-height: 1.4em;
+    word-spacing: 2px;
+    padding: 30px;
+}
+
+@media (max-width:710px) {
+    .about_landing_container{
+        overflow-x: hidden !important;
+    }
+    .write_up{
+        width: 330px !important;
+        /* padding: 30px; */
+        font-size: 14px;
+        /* padding-left: 1cm; */
+    }
+
+    .for_family_pix{
+        width: 89%;
+    }
+
+    /* .revas{
+        flex-direction: column-reverse;
+    } */    
+
+    .hhh{
+        /* margin-left: 2cm !important; */
+        text-align: center;
+        word-break: break-all;
+        word-wrap: break-word;
+    }
+}
+
+.ubuntu{
+    font-family: Ubuntu, sans-serif;
+}
+
+.cntr{
+    text-align: center;
+}
+
+.our_team{
+    text-transform: uppercase;
+    color: orangered;
+    margin-top: 94px;
+}
+.orange{
+    color: orangered !important;
+}
+
+.bue{
+    color: #1a73e8 !important;
+}
+
+.c_t_o
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    margin-top: 3cm;
+}
+
+.set_size{
+    /* border: 1px solid #222; */
+    width: 400px;
+    word-break: keep-all;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.presido{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: all .3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+.presido:hover{
+    filter: grayscale(100%);
+}
+
+.nameofowners{
+    font-weight: 600;
+}

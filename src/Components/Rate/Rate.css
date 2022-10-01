@@ -1,0 +1,28 @@
+
+
+.Rate{
+    width: 100vw;
+    height: auto;
+    border: 1px solid orangered;
+    margin-top: 8rem;
+    background: orangered;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    /* overflow: hidden; */
+}
+
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 15px;
+    padding: 10px;
+}
+
+.ubuntu{
+    font-family: Ubuntu, sans-serif;
+}

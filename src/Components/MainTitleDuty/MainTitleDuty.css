@@ -1,0 +1,13 @@
+
+
+/* .MainTitleDuty{} */
+
+.title_of_component{
+    text-align: center;
+    font-family: Ubuntu, sans-serif;
+    font-size: 39px;
+    text-transform: uppercase;
+    margin: 1.7cm auto;
+    letter-spacing: 1.4px;
+    word-spacing: 2px;
+}

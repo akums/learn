@@ -1,0 +1,15 @@
+
+
+
+/* .GeneralLandPage{} */
+
+.gen_img{
+    width: 100%;
+    height: 390px;
+}
+
+.hero_img{
+    width: inherit !important;
+    object-fit: cover;
+    height: inherit !important;
+}

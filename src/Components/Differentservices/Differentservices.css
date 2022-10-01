@@ -1,0 +1,59 @@
+
+.Differentservices{
+    margin: 4cm 2cm;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.img_size{
+    width: inherit;
+    box-shadow: inherit !important;
+    height: 230px;
+    object-fit: cover;
+}
+
+.diff_wrapper{
+    height: 430px;
+    width: 310px;
+    box-shadow: 2px 2px 45px #888;
+    border-radius: 4px;
+    transition: all .2s linear;
+    margin: 30pt;
+}
+
+.diff_wrapper:hover{
+    box-shadow: 2px 2px 10px #888;
+}
+
+.inheritance{
+    width: inherit !important;
+}
+
+.diff_link{
+    width:  inherit;
+    color: #444;
+    text-decoration: none;
+}
+
+.diff_txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.diff_txt > p{
+    font-family: Montserrat, sans-serif;
+    line-height: 1.4em;
+    text-align: center;
+    padding: 10px 18px;
+}
+
+.h_title{
+    margin-top: 2.3em !important;
+}
+
+.lil_cont{
+    margin-top: -6px;
+}
+

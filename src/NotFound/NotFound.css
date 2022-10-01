@@ -1,0 +1,22 @@
+
+.zeroPage{
+
+    /* position: absolute; */
+    top: 35% !important;
+    left: 40% !important;
+    /* margin: 0 auto !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center; */
+}
+
+.qwertyuiop{
+    color: #aaa;
+    font-size: 59px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
